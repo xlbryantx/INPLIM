@@ -31,10 +31,10 @@ python main.py --data_root your_data_path --lr 1e-4 --weight_decay 1e-3 --dim 12
 The trained model will be saved in ``your_save_path``.
 The best hyper-parameters combination may be different for different dataset and need to be seached.
 ### 3. Interpreting
-To get the explaination of the corresponding model for all samples in the test set, you can execute the following command。  
+To get the explaination of the corresponding model for all samples in the test set, you can execute the following command.
 ``
 python interpret.py --data_root your_data_path --model_path your_save_path/your_trained_model_name --save_path your_save_exp_path
-``
+``  
 The explainations of all samples will be saved in your_save_exp_path.
 
 

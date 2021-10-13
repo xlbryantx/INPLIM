@@ -11,7 +11,7 @@ from utils import train_eval
 
 def args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_root', type=str, default='./datasets/heart/dataset_1',
+    parser.add_argument('--data_root', type=str, default='',
                         help='Set the root path of the dataset')
     parser.add_argument('--devices', type=str, default='cpu',
                         help='Setting the IDs of GPU devices.')
