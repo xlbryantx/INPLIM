@@ -1,4 +1,3 @@
-''' Define the Layers '''
 import torch.nn as nn
 from Model.SubLayers import MultiHeadContextAttention, MultiHeadTimeAttention
 

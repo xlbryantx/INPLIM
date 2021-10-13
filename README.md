@@ -1,6 +1,6 @@
 ## Context-aware and Time-aware Attention-based Model for Disease Risk Prediction with Interpretability
 ---
-The rpo contains the PyTorch implementation of the paper for demo purpose. The original dataset is a private dataset, you can prepare your data refer to bellow.
+The rpo contains the PyTorch implementation of the paper for demo purposes. The original dataset is a private dataset, you can refer to below to prepare your own dataset.
 
 
 

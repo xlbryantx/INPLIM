@@ -11,9 +11,9 @@ from Model.INPLIM import Doctor
 
 def args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_root', type=str, default='./datasets/heart/dataset_1',
+    parser.add_argument('--data_root', type=str, default='',
                         help='Setting the root path of the dataset')
-    parser.add_argument('--model_path', type=str, default='./saved_models/Model-AUC-0.7384.pth',
+    parser.add_argument('--model_path', type=str, default='',
                         help='Setting the model path.')
     parser.add_argument('--save_path', type=str, default='./saved_explanation')
     return parser
