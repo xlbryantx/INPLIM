@@ -27,8 +27,6 @@ def args():
                         help='Setting the inner dim of the model.')
     parser.add_argument('--max_len', type=int, default=200,
                         help='Setting the maximum number of code to use for a patient.')
-    parser.add_argument('--optimizer', choices='Adam, SGD', default='Adam',
-                        help='Choose a optimizer to use')
     parser.add_argument('--drop_context', type=float, default=0.3,
                         help='Setting drop rate of the context-aware branch.')
     parser.add_argument('--drop_time', type=float, default=0.3,
